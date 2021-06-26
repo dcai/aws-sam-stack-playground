@@ -1,12 +1,13 @@
 {
-  "name": "hello_world",
+  "name": "hello",
   "version": "1.0.0",
   "description": "hello world sample for NodeJS",
   "main": "app.js",
-  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
-  "author": "SAM CLI",
+  "repository": "https://github.com/dcai/aws-sam-stack-playground.git",
+  "author": "Dongsheng Cai",
   "license": "MIT",
   "dependencies": {
+    "aws-sdk": "^2.935.0",
     "axios": "^0.21.1"
   },
   "scripts": {

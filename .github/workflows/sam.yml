@@ -22,7 +22,7 @@ jobs:
       - name: install packages
         run: |
           pwd
-          cd hello-world
+          cd hello
           pwd
           npm ci
 
