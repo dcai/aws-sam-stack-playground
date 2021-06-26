@@ -50,10 +50,10 @@ exports.lambdaHandler = async (event, context) => {
         const users = await fetchData('users');
         response = {
             'statusCode': 200,
-            'body': {
+            'body': JSON.stringify({
                 message: 'hello world',
                 users
-            }
+            })
         };
     } catch (err) {
         console.error(err);
