@@ -17,6 +17,8 @@ Resources:
       CodeUri: hello/
       Handler: app.lambdaHandler
       Runtime: nodejs14.x
+      Policies:
+        - AmazonDynamoDBFullAccess
       Events:
         HelloWorld:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
